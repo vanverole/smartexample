@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Устанавливаем цвет текста для всего документа */
+}
+
+/* Добавляем стили для ссылок в навигации */
+nav ul li a {
+    color: #fff; /* Устанавливаем белый цвет текста для ссылок */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+/* Добавляем стили для текста в контейнере */
+.container h2, .container p {
+    color: #fff; /* Устанавливаем белый цвет текста */
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('wp9608190-big-floppa-wallpapers.png'); /* Путь к вашему изображению */
+    background-size: cover;
+    z-index: -1; /* Помещаем изображение за все остальные элементы */
+    opacity: 0; /* Устанавливаем начальную прозрачность */
+}
+
+
+header {
+    background-color: rgba(88, 88, 88); /* Полупрозрачный черный цвет фона */
+    padding: 20px;
+    text-align: center;
+    z-index: 1; /* Помещаем шапку над изображением */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(88, 88, 88); /* Полупрозрачный черный цвет фона */
+    z-index: 1; /* Помещаем контейнер над изображением */
+    color: #fff; /* Белый цвет текста в контейнере */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: rgba(88, 88, 88); /* Полупрозрачный черный цвет фона */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+   
